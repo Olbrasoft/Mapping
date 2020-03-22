@@ -1,7 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Jiří Tůma</Authors>
+    <Company>Olbrasoft</Company>
+    <Description>Only interface IMapper with generic function MapTo</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Olbrasoft/Mapping</RepositoryUrl>
+    <PackageIcon>olbrasoft-mapping.png</PackageIcon>
+    <RepositoryType>Net Standard 2.1</RepositoryType>
+    <PackageTags>Mapping Mapper</PackageTags>
   </PropertyGroup>
 
 </Project>
