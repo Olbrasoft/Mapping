@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard2.1;netstandard1.6;</TargetFrameworks>
-    <LangVersion>8.0</LangVersion>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;netstandard1.6</TargetFrameworks>
+    <LangVersion>10</LangVersion>
     <nullable>enable</nullable>
     <AssemblyName>Olbrasoft.Mapping.Abstractions</AssemblyName>
     <RootNamespace>Olbrasoft.Mapping</RootNamespace>
@@ -17,6 +17,10 @@
     <RepositoryUrl>https://github.com/Olbrasoft/Mapping</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Mapper mapping projection projector</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>True</IncludeSymbols>
+	<Version>7.3.0</Version>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>

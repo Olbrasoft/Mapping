@@ -1,9 +1,8 @@
 ﻿using System.Linq;
 
-namespace Olbrasoft.Mapping
+namespace Olbrasoft.Mapping;
+
+public interface IProjector
 {
-    public interface IProjector
-    {
-        IQueryable<TDestination> ProjectTo<TDestination>(IQueryable source);
-    }
+    IQueryable<TDestination> ProjectTo<TDestination>(IQueryable source);
 }
