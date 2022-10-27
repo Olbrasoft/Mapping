@@ -13,7 +13,7 @@
 		<PackageTags>Maping Projection Mapster Dependency Injection</PackageTags>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<IncludeSymbols>True</IncludeSymbols>
-		<Version>7.3.0</Version>
+		<Version>7.3.1</Version>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	</PropertyGroup>
 
